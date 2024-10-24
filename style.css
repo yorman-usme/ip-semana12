@@ -1,0 +1,65 @@
+/* Establece que html y body ocupen el 100% de la altura de la ventana del navegador */
+html, body {
+    height: 100%;
+    margin: 0; /* Elimina los márgenes predeterminados del navegador */
+}
+
+/* Estilo para el body */
+body {
+    font-family: sans-serif; /* Establece la fuente para el cuerpo del documento */
+    margin: 0; /* Asegura que no haya márgenes alrededor del body */
+    background: linear-gradient(black, white, black); /* Aplica un fondo con un gradiente de negro a blanco y de vuelta a negro */
+}
+
+/* Contenedor principal que usa Flexbox */
+.contenedor {
+    display: flex; /* Activa Flexbox para la disposición de elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    padding: 20px; /* Agrega espacio interno alrededor del contenedor */
+}
+
+/* Estilo para las tarjetas individuales */
+.tarjeta {
+    width: 300px; /* Establece un ancho fijo para las tarjetas */
+    margin: 10px; /* Agrega margen externo entre las tarjetas */
+    padding: 20px; /* Agrega espacio interno dentro de cada tarjeta */
+    border-radius: 30px; /* Bordes redondeados para las tarjetas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    background-color: gray; /* Color de fondo de las tarjetas */
+}
+
+/* Estilo específico para la tarjeta 1 */
+.tarjet-1 {
+    border: 1px solid yellow; /* Borde amarillo alrededor de la tarjeta */
+}
+
+/* Estilo específico para la tarjeta 2 */
+.tarjet-2 {
+    border: 1px solid blue; /* Borde azul alrededor de la tarjeta */
+}
+
+/* Estilo específico para la tarjeta 3 */
+.tarjet-3 {
+    border: 1px solid red; /* Borde rojo alrededor de la tarjeta */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.tarjeta img {
+    width: 100%; /* La imagen ocupa el 100% del ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios en blanco debajo de la imagen */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior de la imagen */
+}
+
+/* Estilo para los encabezados dentro de las tarjetas */
+.tarjeta h3 {
+    margin-top: 50px; /* Margen superior para separar el encabezado del contenido superior */
+}
+
+/* Estilo para los párrafos dentro de las tarjetas */
+.tarjeta p {
+    font-size: 0.9em; /* Tamaño de fuente ligeramente más pequeño */
+    line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+    color: white; /* Color del texto en blanco */
+}
